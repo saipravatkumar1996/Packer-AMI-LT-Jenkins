@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-2'
-        LAUNCH_TEMPLATE_ID = 'lt-0bc0af73362e966fa'
+        LAUNCH_TEMPLATE_ID = 'lt-095cfaab69d44b129'
         ASG_NAME = "ASG"
         
     }
