@@ -15,7 +15,7 @@ variable "aws_region" {
 source "amazon-ebs" "ubuntu-node" {
   region           = var.aws_region
   instance_type    = "t2.medium"
-  ami_name         = "PackerAMI-{{timestamp}}"
+  ami_name         = "node-app-ami-{{timestamp}}"
   ssh_username     = "ubuntu"
 
   source_ami_filter {
